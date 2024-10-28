@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.landing-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-section {
+  background: linear-gradient(to bottom, #ffd700, #ffcc00);
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.app-title {
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.download-button {
+  padding: 15px 30px;
+  background-color: black;
+  color: #ffd700;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.download-button:hover {
+  background-color: #333;
+}
+
+.features-section {
+  padding: 40px 20px;
+  background-color: #222;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+.feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature-card {
+  background-color: black;
+  border: 2px solid #ffd700;
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.feature-card h3 {
+  color: #ffd700;
+}
+
+.call-to-action {
+  background: linear-gradient(to top, #ffd700, #ffcc00);
+  padding: 50px 20px;
+  color: black;
+}
+
+.call-to-action h2 {
+  font-size: 2.5rem;
+}
+
+.call-to-action p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: black;
+  padding: 20px;
+  color: #ffd700;
+  font-size: 0.9rem;
+}
